@@ -24,6 +24,11 @@
 The Tasman internal tide beam is incident upon Tasmania continental slope. The beam is partially dissipated by means of scattering into higher modes and nonlinear processes. And partially reflects. These two phenomena depend primarily on offshore characteristics of the beam, i.e. its phase and interaction with ETP. This will defined variability of the energies in reflected wave and hence, scattered. Local mesoscale (EAC) was found to have second order effect. Additionally, it is possible that the incident internal tide
 
 \section{Introduction}
+Internal tides radiated from generating steep topography as low-mode baroclinic waves encounters both small scale ocean bottom inhomogeneities and steep continental slopes. Both of these processes are important sources for energy dissipation in internal tide. While small scale roughness has been quantatively described (\cite{bell1977decay}, \cite{buhler2011decay}), internal tide dissipation on the continental slopes is poorly understood and lacks any parametrizations (\cite{eden2014energy}).\\
+The continental slopes are thought to be one of the major sinks of tidal energy (\cite{kelly2012cascade}, \cite{klymak2011breaking}). The dissipation usually takes place as generation of high modes which are prone to shear instabilities (\cite{klymak2013parameterizing}) and consequent dissipation or through nonlinear processes (\cite{lamb2014internal}). In any case, portion of the incident energy becomes dissipated while some is being reflected offshore. For global understanding it is important to see how much energy is being reflected and how variable this amount.\\
+This was a purpose of TTIDE project. Tasman Continental slope is a place where a prominent, tight beam impinges (\cite{pinkel2015breaking}). Initial numerical experiments (\cite{klymak2016reflection}) have shown a complex response of the continental slope. Reasons for this were named as oblique incidence, diffraction by an offshore seamountain and generation slope mode which redistributes energy. As a result reflection coefficient is spatially variable with an average of $65~\%$ which is consistent with large regions of supercritical bathymetry.\\
+In this work the reflection of Tasman Continental slope will be studied in order to describe variability of the reflection. And how aforementioned processes change the energy transfers. This study is a numerical investigation, the experiments are described in Section 2 with carried out analysis. In following up section 3 we describe energy partitioning occurring as the tidal beam impinges the slope and outline variability. While section 4 will provide description of physical mechanisms responsible for the variations. In section 5 application to field observations is presented.\\
+
 The beam strikes the shelf. While off shore the beam is more or less homogeneous due to presence of Cascade seamount there is a focusing which leads to maxima. One is located right behind the seamount, and the other - more north. These are the sites for field program. The scattering problem consists of reflected signal, high mode generation and dissipation. We would like to address budget calculations and their variability.
 
 \section{Numerical experiments}
@@ -68,22 +73,31 @@ The following analysis was carried on the last 5 day simulations. For the long r
 
 \section{Reasons for variation}
 \subsection{Diffraction by seamount and incident angle}
+The diffraction varies with the beam position, incidence and stratification?
+\begin{figure}
+\mfig[0.5]{fl_mods_psi_shelf.png}
+\end{figure}
+
 \subsection{Slope mode and local generation}
+Another reason for variation is a generation of slope mode which than couples with barotropic tide.
+\begin{figure}
+\mfig[0.5]{sm_sl3.pdf}
+\end{figure}
+\begin{figure}
+\mfig[0.5]{sm_sl4.pdf}
+\end{figure}
+
 \subsection{Mesoscale}
+Effect of mesoscale - first order change of slope size in WKB. Second - offshore variations.
+\begin{figure}
+\mfig[0.5]{bird_view_wkb_H_2_invert_TRUE.png}
+\end{figure}
+
 \subsection{Resonance at NRS???}
 
 \section{Discussion}
 \section{Conclusions}
 
-\newpage
-\section*{TO DO LIST}
-\begin{itemize}
-\item How the slope mode excites?
-\item Slope mode characteristics?
-\item Offshore reflection coefficient
-\item Interaction with ETP
-\item Interaction with eddy
-\end{itemize}
 
 \bibliographystyle{apacite}
 \bibliography{/home/dmitry/Bibtex_lib/}
