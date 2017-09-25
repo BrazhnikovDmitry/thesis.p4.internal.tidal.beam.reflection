@@ -20,33 +20,60 @@
 \title{Variability of reflection and scattering of internal tidal beam from Tasman Continental slope}
 \maketitle
 
-\begin{itemize}
-\item Why did you work on this problem?
-This part describes what happens with the internal tidal beams as it encounters Tasman slope. There is a great deal of complexity in reflection, scattering and energy losses. For me it was interesting to find a way to obtain a picture which will embrace these processes and will show how the coherent tidal beam disappears.
-
-\item What did you find out?
-The beam losses its energy in several spots with distinctive reflective properties: the northern is being highly reflective becoming some times super reflective. And the southern portion is more dissipative, the mode-1 scatters into higher modes more efficient. Though at latter spot the reflection is close to half, under some conditions it can become much larger. The reason for superreflectivity and higher energy lost is the same, under \textbf{...} the slope mode is excited. It couples with local barotropic forcing causing higher reflected signal at the northern site, but at the southern to trapped scattering.\\
-These two phenomena depends on the beam's characteristics which are shaped by generation at Macquarie Ridge and mesoscale field. The first part was described before, but the second appears as refraction of the beam by the offshore eddies.
-
-\item How did you tackle it?
-Conversion and energy flux.
-
-\item How do you know your results are valid?
-These results partially correspond to field observations.
-\item How do your results fit into the big picture?
-In many ways: a) incoherence of the tidal waves on slope; b) variable diffusivities; c) close coupling to along slope bathymetry which was not described before.
-
-\item Is further work needed?
-Three dimensional theoretical theory of internal tide scattering from bathymetry
-\end{itemize}
-
 \section{Abstract}
-The Tasman internal tide beam is incident upon Tasmania continental slope. The beam is partially dissipated by means of scattering into higher modes and nonlinear processes. And partially reflects. These two phenomena depend primarily on offshore characteristics of the beam, i.e. its phase and interaction with ETP. This will defined variability of the energies in reflected wave and hence, scattered. Local mesoscale (EAC) was found to have second order effect.
+The Tasman internal tide beam is incident upon Tasmania continental slope. The beam is partially dissipated by means of scattering into higher modes and nonlinear processes. And partially reflects. These two phenomena depend primarily on offshore characteristics of the beam, i.e. its phase and interaction with ETP. This will defined variability of the energies in reflected wave and hence, scattered. Local mesoscale (EAC) was found to have second order effect. Additionally, it is possible that the incident internal tide
 
 \section{Introduction}
 The beam strikes the shelf. While off shore the beam is more or less homogeneous due to presence of Cascade seamount there is a focusing which leads to maxima. One is located right behind the seamount, and the other - more north. These are the sites for field program. The scattering problem consists of reflected signal, high mode generation and dissipation. We would like to address budget calculations and their variability.
 
+\section{Numerical experiments}
+It is used Regional Ocean Modeling System. The numerical domain covers southern Tasman Sea basin with grid spacing of $1/32^{\circ}$ and 50 vertical $\sigma$-levels. To simplify results $M_2$-harmonic forced as boundary condition.\\
+Several cases of different background conditions is considered (Table 1). In the simple setting no background conditions are prescribed with spatially uniform stratification  representative of climatological mean. Other simulations were initialized with HYCOM hindcasted three dimensional fields of horizontal currents and stratification. On the boundaries the same fields were forced throught simulation. On the top MERRA fields were given through insolation, air temperature, evaporation-precipitation rates and wind stresses. These parameters were taken for the given in table periods.\\
+The simulation were sampled after 10 days of spin up that mode-1, 2 internal tide reached stationary behavior.\\
+To outline scattering energetics additionally MITgcm simulation was done with similar background conditions as 'Uni' and same resolution.\\
+\begin{table}
+ \caption{Carried out numerical experiments}
+ \begin{tabular}{ |p{3cm}||p{5cm}|p{5cm}|  }
+ \hline
+ \multicolumn{3}{|c|}{Numerical experiments used in this study} \\
+ \hline
+Experiment Name & Dates & Comments \\
+ \hline
+Uni & NA & Homogeneous background condtions \\
+2012 &   Janaury 1st - January 15th 2012 & NA \\
+2013 &   Janaury 1st - January 15th 2013 & NA \\
+2014 &   Janaury 1st - January 15th 2014 & NA \\
+2015 &   Janaury 1st - January 15th 2015 & NA \\
+2015\_TBEAM &   Janaury 1st - March 1st 2015 & to cover field period \\
+2013\_274 &   DOY: 274 - 289 - 2013 & to test generation hypothesis \\
+2015\_074 &   DOY: March 1st - March 15th 2015 & to test generation hypothesis \\
+ \hline
+\end{tabular}
+\end{table}
+
+The following analysis was carried on the last 5 day simulations. For the long run (2015\_TBEAM) the output was sampled in 5 days non-overlapping windows.\\
+
 \section{Analysis}
+\subsection{Reflection coefficient}
+\begin{figure}
+\mfig[0.5]{bird_view_ddec_1.png}
+\mfig[0.5]{bird_view_ddec_2.png}
+\end{figure}
+
+\subsection{Budget}
+\begin{figure}
+\mfig[0.3]{budget_roms_var.pdf}
+\end{figure}
+%\subsection{Estimate from inverse}
+
+\section{Reasons for variation}
+\subsection{Diffraction by seamount and incident angle}
+\subsection{Slope mode and local generation}
+\subsection{Mesoscale}
+\subsection{Resonance at NRS???}
+
+\section{Discussion}
+\section{Conclusions}
 
 \newpage
 \section*{TO DO LIST}

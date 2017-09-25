@@ -4,3 +4,23 @@ This chapter addresses how the internal tidal beam scattered by continental marg
 3) The averaged energy transfers can largely change by excited slope mode, read Jody, Chapman and Dale
 4) Slope mode excitation varies
 5) Offshore mesoscale shapes the beam and slope response additionally.
+
+\begin{itemize}
+\item Why did you work on this problem?
+This part describes what happens with the internal tidal beams as it encounters Tasman slope. There is a great deal of complexity in reflection, scattering and energy losses. For me it was interesting to find a way to obtain a picture which will embrace these processes and will show how the coherent tidal beam disappears.
+
+\item What did you find out?
+The beam losses its energy in several spots with distinctive reflective properties: the northern is being highly reflective becoming some times super reflective. And the southern portion is more dissipative, the mode-1 scatters into higher modes more efficient. Though at latter spot the reflection is close to half, under some conditions it can become much larger. The reason for superreflectivity and higher energy lost is the same, under \textbf{...} the slope mode is excited. It couples with local barotropic forcing causing higher reflected signal at the northern site, but at the southern to trapped scattering.\\
+These two phenomena depends on the beam's characteristics which are shaped by generation at Macquarie Ridge and mesoscale field. The first part was described before, but the second appears as refraction of the beam by the offshore eddies.
+
+\item How did you tackle it?
+Conversion and energy flux.
+
+\item How do you know your results are valid?
+These results partially correspond to field observations.
+\item How do your results fit into the big picture?
+In many ways: a) incoherence of the tidal waves on slope; b) variable diffusivities; c) close coupling to along slope bathymetry which was not described before.
+
+\item Is further work needed?
+Three dimensional theoretical theory of internal tide scattering from bathymetry
+\end{itemize}
